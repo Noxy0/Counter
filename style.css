@@ -1,0 +1,31 @@
+body {
+    font-family: arial;
+}
+
+.counter {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.counter h2 {
+    margin: 0 auto;
+    font-size: 2.5rem;
+}
+
+#number {
+    font-size: 6.5rem;
+    color: rgb(94, 94, 94);
+}
+
+button {
+    font-size: 1.2rem;
+    cursor: pointer;
+    border: none;
+    background-color: rgb(187, 187, 187);
+    border-radius: 12px;
+    padding: 0.7rem 1rem;
+}
